@@ -1,6 +1,6 @@
 ## Spotify Data Pipeline – AWS Serverless ETL Project
 
-This project demonstrates a complete end-to-end serverless data pipeline built on AWS that collects and analyzes trending songs from the Spotify API. It follows the ETL (Extract, Transform, Load) pattern and enables weekly insights using AWS Lambda, S3, Glue, and Athena.
+This project is about building a end-to-end serverless data pipeline on AWS that collects and analyzes trending songs from the Spotify API. It follows the ETL (Extract, Transform, Load) pattern and enables weekly insights using AWS Lambda, S3, Glue, and Athena.
 
 ## Context
 
@@ -39,7 +39,6 @@ SELECT
 FROM songs_data
 ORDER BY song_popularity DESC
 LIMIT 10;
-
 ```
 Result:
 
