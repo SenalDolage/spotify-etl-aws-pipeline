@@ -15,7 +15,7 @@ This pipeline helps the client:
 
 ## Workflow Architecture
 
-[image.png](https://postimg.cc/hfK8R982)
+[![image.png](https://i.postimg.cc/wTmwJ21Y/image.png)](https://postimg.cc/hfK8R982)
 
 1. CloudWatch triggers Lambda weekly.
 
